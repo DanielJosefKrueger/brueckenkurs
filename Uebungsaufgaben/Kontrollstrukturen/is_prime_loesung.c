@@ -9,10 +9,10 @@ int main(){
 
   for(int i =2; i*i < zahl; i++){
     if(zahl%i==0){
-        printf("Die Zahl ist keine Primzahl");
+        printf("Die Zahl ist keine Primzahl\n");
         return 0;
     }
   }
-  printf("Die Zahl ist eine Primzahl");
+  printf("Die Zahl ist eine Primzahl\n");
   return 0;
 }
