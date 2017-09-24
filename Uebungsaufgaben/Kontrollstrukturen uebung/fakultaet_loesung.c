@@ -2,9 +2,8 @@
 
 int main(){
   int zahl;
-  printf("Geben Sie eine Zahl ein, deren Fakultaet berechnet werden sol\n");
+  printf("Geben Sie eine Zahl ein, deren Fakultaet berechnet werden soll\n");
   scanf("%d", &zahl);
-  // in der variable Zahl ist nun die Zahl gespeichert, die getestet werden soll; now its ur turn
 
   int fak = 1;
   for(int i =1; i <=zahl; i++){
