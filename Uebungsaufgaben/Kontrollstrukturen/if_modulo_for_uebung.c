@@ -12,14 +12,13 @@ int main(){
       printf("%d ist durch 9 teilbar\n", i);
     }
 
-
     if(i%7==0 && i%9==0){
       printf("%d ist auch durch 63 teilbar\n", i);
     }
 
-    if(i%7==0 || i%9==0){
-      printf("%d ist durch 7 oder 9 teilbar\n", i);
-    }
+		if((i%7==0 && i%9!=0)||(i%7!=0 && i%9==0)){
+			printf("%d ist durch 7 oder 9 teilbar, aber nicht durch 63\n", i);
+		}
   }
   return 0;
 }
